@@ -1,0 +1,3 @@
+[submodule "docs/images"]
+	path = docs/images
+	url = https://github.com/ktock/qemu-wasm-demo-images.git
