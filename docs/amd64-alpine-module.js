@@ -10,6 +10,6 @@ Module['arguments'] = [
     '-append', 'earlyprintk=ttyS0,115200n8 console=ttyS0,115200n8 root=/dev/vda rootwait ro loglevel=6 NO_RUNTIME_CONFIG=1 init=/sbin/tini -- /sbin/init',
 ];
 Module['locateFile'] = function(path, prefix) {
-    return '/images/amd64-alpine/' + path;
+    return '/qemu-wasm-demo/images/amd64-alpine/' + path;
 };
-Module['mainScriptUrlOrBlob'] = '/images/amd64-alpine/out.js'
+Module['mainScriptUrlOrBlob'] = '/qemu-wasm-demo/images/amd64-alpine/out.js'

@@ -14,6 +14,6 @@ Module['arguments'] = [
     '-device', 'virtconsole,chardev=charconsole0,id=console0'
 ];
 Module['locateFile'] = function(path, prefix) {
-    return '/images/aarch64-alpine/' + path;
+    return '/qemu-wasm-demo/images/aarch64-alpine/' + path;
 };
-Module['mainScriptUrlOrBlob'] = '/images/aarch64-alpine/out.js'
+Module['mainScriptUrlOrBlob'] = '/qemu-wasm-demo/images/aarch64-alpine/out.js'

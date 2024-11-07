@@ -12,6 +12,6 @@ Module['arguments'] = [
     '-append', 'earlycon=pl011,0x3f201000 console=ttyAMA0,115200 loglevel=6 initcall_blacklist=bcm2835_pm_driver_init root=/dev/mmcblk0 rootfstype=ext4 rootwait'
 ];
 Module['locateFile'] = function(path, prefix) {
-    return '/images/raspi3ap/' + path;
+    return '/qemu-wasm-demo/images/raspi3ap/' + path;
 };
-Module['mainScriptUrlOrBlob'] = '/images/raspi3ap/out.js'
+Module['mainScriptUrlOrBlob'] = '/qemu-wasm-demo/images/raspi3ap/out.js'
