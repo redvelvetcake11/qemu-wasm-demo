@@ -19,34 +19,14 @@
 <table class="table table-bordered w-auto">
 <tr>
 <th>Demo Name</th>
-<th>Application</th>
+<th>Guest</th>
 <th>Terminal</th>
 </tr>
 
 <tr>
-<td><a href="https://github.com/ktock/qemu-wasm-demo/tree/main/src/aarch64-alpine">Alpine(aarch64)</a></td>
-<td><pre><code>arm64v8/alpine:3.20</code></pre></td>
-<td><a href="./aarch64-alpine.html">start</a></td>
-</tr>
-
-<tr>
-<td><a href="https://github.com/ktock/qemu-wasm-demo/tree/main/src/aarch64-python">Python(aarch64)</a></td>
-<td><pre><code>arm64v8/python:3.12-alpine</code></pre></td>
-<td><a href="./aarch64-python.html">start</a></td>
-</tr>
-
-<tr>
-<td><a href="https://github.com/ktock/qemu-wasm-demo/tree/main/src/aarch64-vim">Vim(aarch64)</a></td>
-<td><pre><code>FROM arm64v8/alpine:20230208
-RUN apk add --no-cache vim
-ENTRYPOINT ["vim"]</code></pre></td>
-<td><a href="./aarch64-vim.html">start</a></td>
-</tr>
-
-<tr>
-<td><a href="https://github.com/ktock/qemu-wasm-demo/tree/main/src/amd64-alpine">Alpine(x86_64)</a></td>
-<td><pre><code>alpine:3.20</code></pre></td>
-<td><a href="./amd64-alpine.html">start</a></td>
+<td>x86_64 guest</td>
+<td>Alpine Linux (x86_64)</td>
+<td><a href="./alpine-x86_64.html">start</a></td>
 </tr>
 
 <tr>
@@ -61,9 +41,9 @@ ENTRYPOINT ["vim"]</code></pre></td>
 
 <hr>
 
-<p>More info including docs and source code is available from <a href="https://github.com/ktock/qemu-wasm">QEMU Wasm</a> and <a href="https://github.com/ktock/container2wasm">container2wasm</a> repo. This page is served from <a href="https://github.com/ktock/qemu-wasm-demo">qemu-wasm-demo repo</a> as GitHub Pages.</p>
+<p>More info including docs and source code is available from <a href="https://github.com/ktock/qemu-wasm">QEMU Wasm</a>repo. This page is served from <a href="https://github.com/ktock/qemu-wasm-demo">qemu-wasm-demo repo</a> as GitHub Pages.</p>
 
-<p>Other demos for containers (x86_64 and RISC-V using non-QEMU emulators) on browser are available on <a href="https://ktock.github.io/container2wasm-demo/">container2wasm-demo page</a>.</p>
+<p>Other demos (containers on browser) are available on <a href="https://ktock.github.io/container2wasm-demo/">container2wasm-demo page</a>.</p>
 
 </main>
 </body>
