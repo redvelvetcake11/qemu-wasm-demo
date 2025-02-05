@@ -2,7 +2,7 @@ if (typeof Module === 'undefined') {
     Module = {};
 }
 Module['arguments'] = [
-    '-nographic', '-M', 'pc', '-m', '512M', '-accel', 'tcg,tb-size=500',
+    '-nographic', '-M', 'pc', '-m', '4G', '-accel', 'tcg,tb-size=500',
     '-L', '/pack-rom/',
     '-nic', 'none',
     '-kernel', '/pack-kernel/vmlinuz-virt',
